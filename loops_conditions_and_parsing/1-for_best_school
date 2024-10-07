@@ -1,10 +1,7 @@
 #!/usr/bin/env bash
 # prints Best school ten times"
 
-loop_count=1
-
-while [[ loop_count -le 10 ]]; do
+for i in {1..10}; do
 	echo "Best School"
-	((loop_count++))
 done
 
