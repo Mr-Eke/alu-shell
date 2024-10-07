@@ -1,0 +1,9 @@
+#!/bin/env bash
+
+loop_count=1
+
+while [[ loop_count -le 10 ]]; do
+	echo "Best School"
+	((loop_count++))
+done
+
